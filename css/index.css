@@ -1,4 +1,4 @@
-@import url('https://files.bdph.me/reset.css');
+@import url('./reset.css');
 @import url('../assets/fonts/museo/museo.css');
 @import url('../assets/fonts/slkscr/slkscr.css');
 @import url('./story.css');
