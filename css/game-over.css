@@ -1,0 +1,15 @@
+@keyframes game-over-appearing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.game-over {
+  background-color: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(4px);
+
+  animation: game-over-appearing 0.5s ease-out;
+}
